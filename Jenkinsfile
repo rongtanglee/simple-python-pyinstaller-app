@@ -1,5 +1,5 @@
 pipeline {
-    agent none 
+    agent cros-brya-agent
     options {
         skipStagesAfterUnstable()
     }
